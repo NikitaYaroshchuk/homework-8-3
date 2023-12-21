@@ -1,0 +1,41 @@
+    .lesson-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .lesson-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .lesson-list li {
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+    .lesson-list li:first-child {
+      background-color: blue;
+    }
+    .lesson-list li:nth-child(2) {
+      background-color: green;
+    }
+    .lesson-list li:nth-child(3) {
+      background-color: violet;
+    }
+    .lesson-list li:nth-child(4) {
+      background-color: orange;
+    }
+    .lesson-list li:nth-child(5) {
+      background-color: pink;
+    }
+    .lesson-list li:active {
+      background-color: red;
+    }
+    .lesson-list li:focus-within {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .lesson-list li:checked {
+      text-decoration: line-through;
+    }
+    .lesson-list li:disabled {
+      opacity: 0.5;
+    }
